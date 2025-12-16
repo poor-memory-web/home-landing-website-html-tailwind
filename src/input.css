@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+    @font-face {
+        font-family: "DMSerifDisplay";
+        src: url(../fonts/DMSerifDisplay-Regular.ttf) format("trueType");
+    }
+
+    @font-face {
+        font-family: "Inter SemiBold";
+        src: url(../fonts/Inter-SemiBold.otf) format("openType");
+    }
+
+    @font-face {
+        font-family: "Inter Bold";
+        src: url(../fonts/Inter-Bold.otf) format("openType");
+    }
+
+    @font-face {
+        font-family: "Jost";
+        src: url(../fonts/Jost-Regular.ttf) format("trueType");
+    }
+
+    @font-face {
+        font-family: "Jost Medium";
+        src: url(../fonts/Jost-Medium.ttf) format("trueType");
+    }
+
+    @font-face {
+        font-family: "Jost SemiBold";
+        src: url(../fonts/Jost-SemiBold.ttf) format("trueType");
+    }
+
+    @font-face {
+        font-family: "Jost Bold";
+        src: url(../fonts/Jost-Bold.ttf) format("trueType");
+    }
+}
+
+@theme {
+    --font-DMSerifDisplay: "DMSerifDisplay";
+    --font-inter-semibold: "Inter SemiBold";
+    --font-inter-bold: "Inter Bold";
+    --font-jost-regular: "Jost Regular";
+    --font-jost-medium: "Jost Medium";
+    --font-jost-semibold: "Jost SemiBold";
+    --font-jost-bold: "Jost Bold";
+}
+
+@utility container {
+    margin-right: auto;
+    margin-left: auto;
+}
