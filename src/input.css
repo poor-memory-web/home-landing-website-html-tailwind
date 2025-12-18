@@ -50,11 +50,15 @@
     --color-secondary : #C76904;
     --color-title : #292F36;
     --color-desc : #4D5053;
+
+    --text-txt : 22px
+
     --leading-desc : 150%
 }
 
 @utility container {
     margin-right: auto;
     margin-left: auto;
-    padding : 2rem
+    padding : 2rem;
+    width : 83.333300%
 }
