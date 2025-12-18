@@ -45,6 +45,9 @@
     --font-jost-medium: "Jost Medium";
     --font-jost-semibold: "Jost SemiBold";
     --font-jost-bold: "Jost Bold";
+
+    --color-primary : #D8A876;
+    --color-secondary : #C76904
 }
 
 @utility container {
