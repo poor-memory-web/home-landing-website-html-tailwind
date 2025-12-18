@@ -47,7 +47,10 @@
     --font-jost-bold: "Jost Bold";
 
     --color-primary : #D8A876;
-    --color-secondary : #C76904
+    --color-secondary : #C76904;
+    --color-title : #292F36;
+    --color-desc : #4D5053;
+    --leading-desc : 150%
 }
 
 @utility container {
