@@ -3,37 +3,37 @@
 @layer base {
     @font-face {
         font-family: "DMSerifDisplay";
-        src: url("../public/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+        src: url("../docs/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
     }
 
     @font-face {
         font-family: "Inter SemiBold";
-        src: url("../public/fonts/Inter-SemiBold.otf") format("opentype");
+        src: url("../docs/fonts/Inter-SemiBold.otf") format("opentype");
     }
 
     @font-face {
         font-family: "Inter Bold";
-        src: url("../public/fonts/Inter-Bold.otf") format("opentype");
+        src: url("../docs/fonts/Inter-Bold.otf") format("opentype");
     }
 
     @font-face {
         font-family: "Jost";
-        src: url("../public/fonts/Jost-Regular.ttf") format("truetype");
+        src: url("../docs/fonts/Jost-Regular.ttf") format("truetype");
     }
 
     @font-face {
         font-family: "Jost Medium";
-        src: url("../public/fonts/Jost-Medium.ttf") format("truetype");
+        src: url("../docs/fonts/Jost-Medium.ttf") format("truetype");
     }
 
     @font-face {
         font-family: "Jost SemiBold";
-        src: url("../public/fonts/Jost-SemiBold.ttf") format("truetype");
+        src: url("../docs/fonts/Jost-SemiBold.ttf") format("truetype");
     }
 
     @font-face {
         font-family: "Jost Bold";
-        src: url("../public/fonts/Jost-Bold.ttf") format("truetype");
+        src: url("../docs/fonts/Jost-Bold.ttf") format("truetype");
     }
 }
 

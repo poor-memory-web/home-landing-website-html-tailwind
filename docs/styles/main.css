@@ -206,6 +206,9 @@
   .left-10 {
     left: calc(var(--spacing) * 10);
   }
+  .left-109 {
+    left: calc(var(--spacing) * 109);
+  }
   .left-\[436px\] {
     left: 436px;
   }
@@ -278,6 +281,9 @@
   .mt-36 {
     margin-top: calc(var(--spacing) * 36);
   }
+  .mt-38 {
+    margin-top: calc(var(--spacing) * 38);
+  }
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
   }
@@ -293,9 +299,6 @@
   .mt-96 {
     margin-top: calc(var(--spacing) * 96);
   }
-  .mt-\[154px\] {
-    margin-top: 154px;
-  }
   .container {
     margin-right: auto;
     margin-left: auto;
@@ -307,6 +310,9 @@
   }
   .flex {
     display: flex;
+  }
+  .table {
+    display: table;
   }
   .size-12 {
     width: calc(var(--spacing) * 12);
@@ -337,6 +343,9 @@
   .h-48 {
     height: calc(var(--spacing) * 48);
   }
+  .h-85 {
+    height: calc(var(--spacing) * 85);
+  }
   .h-175 {
     height: calc(var(--spacing) * 175);
   }
@@ -346,14 +355,26 @@
   .h-\[340px\] {
     height: 340px;
   }
+  .w-2 {
+    width: calc(var(--spacing) * 2);
+  }
   .w-2\/12 {
     width: calc(2/12 * 100%);
+  }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
   }
   .w-4\/12 {
     width: calc(4/12 * 100%);
   }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
   .w-5\/12 {
     width: calc(5/12 * 100%);
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
   }
   .w-6\/12 {
     width: calc(6/12 * 100%);
@@ -363,6 +384,9 @@
   }
   .w-60 {
     width: calc(var(--spacing) * 60);
+  }
+  .w-163 {
+    width: calc(var(--spacing) * 163);
   }
   .w-219 {
     width: calc(var(--spacing) * 219);
@@ -375,6 +399,12 @@
   }
   .w-full {
     width: 100%;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -473,17 +503,17 @@
       background-color: color-mix(in oklab, var(--color-white) 90%, transparent);
     }
   }
-  .bg-\[url\(\/public\/images\/contentPicture\.png\)\] {
-    background-image: url(/public/images/contentPicture.png);
+  .bg-\[url\(\/docs\/images\/contentPicture\.png\)\] {
+    background-image: url(/docs/images/contentPicture.png);
   }
-  .bg-\[url\(\/public\/images\/frame1\.png\)\] {
-    background-image: url(/public/images/frame1.png);
+  .bg-\[url\(\/docs\/images\/frame1\.png\)\] {
+    background-image: url(/docs/images/frame1.png);
   }
-  .bg-\[url\(\/public\/images\/frame2\.png\)\] {
-    background-image: url(/public/images/frame2.png);
+  .bg-\[url\(\/docs\/images\/frame2\.png\)\] {
+    background-image: url(/docs/images/frame2.png);
   }
-  .bg-\[url\(\/public\/images\/mainPicture\.png\)\] {
-    background-image: url(/public/images/mainPicture.png);
+  .bg-\[url\(\/docs\/images\/mainPicture\.png\)\] {
+    background-image: url(/docs/images/mainPicture.png);
   }
   .bg-contain {
     background-size: contain;
@@ -598,10 +628,6 @@
     --tw-leading: 125%;
     line-height: 125%;
   }
-  .leading-\[150\%\] {
-    --tw-leading: 150%;
-    line-height: 150%;
-  }
   .leading-desc {
     --tw-leading: var(--leading-desc);
     line-height: var(--leading-desc);
@@ -621,6 +647,9 @@
   .text-white {
     color: var(--color-white);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .opacity-80 {
     opacity: 80%;
   }
@@ -629,35 +658,43 @@
     --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, oklab(from rgb(0 0 0 / 0.25) l a b / 100%));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+  .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
 }
 @layer base {
   @font-face {
     font-family: "DMSerifDisplay";
-    src: url("../public/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+    src: url("../docs/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
   }
   @font-face {
     font-family: "Inter SemiBold";
-    src: url("../public/fonts/Inter-SemiBold.otf") format("opentype");
+    src: url("../docs/fonts/Inter-SemiBold.otf") format("opentype");
   }
   @font-face {
     font-family: "Inter Bold";
-    src: url("../public/fonts/Inter-Bold.otf") format("opentype");
+    src: url("../docs/fonts/Inter-Bold.otf") format("opentype");
   }
   @font-face {
     font-family: "Jost";
-    src: url("../public/fonts/Jost-Regular.ttf") format("truetype");
+    src: url("../docs/fonts/Jost-Regular.ttf") format("truetype");
   }
   @font-face {
     font-family: "Jost Medium";
-    src: url("../public/fonts/Jost-Medium.ttf") format("truetype");
+    src: url("../docs/fonts/Jost-Medium.ttf") format("truetype");
   }
   @font-face {
     font-family: "Jost SemiBold";
-    src: url("../public/fonts/Jost-SemiBold.ttf") format("truetype");
+    src: url("../docs/fonts/Jost-SemiBold.ttf") format("truetype");
   }
   @font-face {
     font-family: "Jost Bold";
-    src: url("../public/fonts/Jost-Bold.ttf") format("truetype");
+    src: url("../docs/fonts/Jost-Bold.ttf") format("truetype");
   }
 }
 @property --tw-border-style {
@@ -734,6 +771,11 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -753,6 +795,7 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
     }
   }
 }
